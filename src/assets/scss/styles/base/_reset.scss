@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* Scss Document */
+
+/////////////////////リセット設定///////////////////////////
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figcaption, figure, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; vertical-align: baseline;}
+div, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block;}
+html {overflow-y: scroll}
+img, svg {vertical-align: bottom}
+blockquote, p {quotes: none}
+blockquote:before, blockquote:after,
+q:befoer, q:after {content: ''; content: none;}
+input, testarea, option, select, button {margin: 0; padding: 0;}
+ul {list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+caption, th{text-align: left;}
+a:focus {outline: none;}
+button {cursor: pointer;}
+* {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+//初期設定
+//--------------------------------------------------//
+html {
+    box-sizing: border-box;
+}
+img {max-width: 100%; height: auto; flex-shrink: 0;}
+ol {margin-left: 1.5em;}
+
+//クラス
+//--------------------------------------------------//
+.clearfix:after {content: "."; display: block; clear: both; height: 0; visibility: hidden;}
+.clearfix {min-height: 1px;}
+* html .clearfix {
+    height: 1px;
+}
+
+.clear{ clear: both;}

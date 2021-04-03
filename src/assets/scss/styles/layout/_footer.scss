@@ -1,0 +1,18 @@
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #725444;
+	.footer_inner {
+		max-width: 1230px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		.footer-copyright {
+			display: block;
+			color: #ddd;
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+}

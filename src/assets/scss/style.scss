@@ -1,0 +1,49 @@
+//========================================================================
+//
+//Sass運用に関する仕様メモ
+//
+//1.@extendは基本的に使わない。使う場合は同類デザインのみ（ボタン、見出しなど）
+//2.フォントサイズは極力、HTML側で「.font_XXXX」で指定する
+//3.フォントサイズを独自に指定する場合は「_variables.scss」に記述する倍率を准将すること
+//
+//========================================================================
+
+
+//Bootstrap - 変数定義
+//@import "styles/bootstrap/variables";
+
+//定義
+@import "styles/helpers/variables";
+//@import "styles/helpers/functions";
+@import "styles/helpers/mixins";
+
+// Bootstrap
+//@import "styles/bootstrap";
+
+//追加設定
+//@import "styles/module/material_icons";
+//@import "styles/module/spacer";
+//@import "styles/module/grid_flexbox";
+//@import "styles/module/responsive";
+
+//ベース設定
+//@import "styles/base/webfont_setting";
+@import "styles/base/reset";
+@import "styles/base/skin";
+
+//構成パーツ
+@import "styles/layout/header";
+@import "styles/layout/footer";
+//@import "styles/layout/forms";
+
+//拡張機能
+//@import "styles/component/accordion";
+//@import "styles/component/breadcrumbs_scroll";
+
+//独自設定
+@import "styles/pages/main";
+//@import "styles/pages/top";
+//@import "styles/pages/under";
+
+//印刷設定
+//@import "styles/module/print";

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+// Scss Document
+
+////////// Bootstrap変数定義の上書き処理 //////////
+// $grid-gutter-width: 0; //グリッドシステムの余白設定
+
+
+////////// 変数定義 //////////
+//
+//　※初期設定で記述されている変数は消さない
+//
+///////////////////////////
+
+
+//フォントファミリー
+$fontFamilyBase: 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino kaku Gothc Pro", "メイリオ", Meiryo, Osaka, "MS Pゴシック";
+$fontFamilyMain: 游明朝, "Yu Mincho", Yumincho, "Hiragino Mincho ProN", HGS明朝E, "Sawarabi Mincho", メイリオ, Meiryo, serif;
+$fontFamilyEnglish: 'Cinzel', serif;
+$lineHeightLarge: 2;
+$lineHeight: 1.5;
+$lineHeightMin: 1.2;
+
+
+//カラー
+$colorMonoDark: #333333;
+$colorMonoDeep: #818181;
+$colorMonoPale: #CCCCCC;
+$colorMonoClear: #F3F3F3;
+$colorMonoLight: #FFFFFF;
+
+$colorMain: #2A9DD8;
+$colorMainDark: #0B598D;
+$colorMainDeep: #0D7EB8;
+$colorMainPale: #6BBBE5;
+$colorMainClear: #ACDEF3;
+$colorMainLight: #E7F5FC;
+
+$colorAccent: #E8C100;
+$colorAccentDark: #DE910B;
+$colorAccentDeep: #DEA300;
+$colorAccentPale: #EFDB4A;
+$colorAccentClear: #F7F7B4;
+$colorAccentLight: #FCFAE5;
+
+//$colorSub: #476d29;
+//$colorSubLight: #59486a;
+
+$colorEntry: #90bc2c;
+$colorEntryLight: #f1f7e4;
+
+$colorLadies: #e0697f;
+$colorLadiesDark: #8a1a2f;
+$colorLadiesLight: #fff1f4;
+
+$colorCaution: #dd0e0e;
+
+$colorFontBase: $colorMonoDark;
+
+$borderRadius: 5px;
+
+$linkTryangle: 6px;
+$linkTryangle: 6px;
+$linkTryanglePc: 8px;
+$linkTryangleSpace: 5px;
+$linkTryangleSpacePc: 7px;
+
+
+$colorTryangleLight: rgba(255,255,255,.75);
+$colorTryangleDark: rgba($colorMonoDark,.85);
+$colorTryangleDeep: rgba($colorMonoDark,.7);
+$colorTryanglePale: rgba($colorMonoDark,.2);
+$colorTryangleMain: rgba($colorMain,.85);
+
+$colorTransLight: rgba(255,255,255,.75);
+$colorTransDark: rgba($colorMonoDark,.85);
+$colorTransDeep: rgba($colorMonoDark,.7);
+$colorTransPale: rgba($colorMonoDark,.2);
+$colorTransMain: rgba($colorMain,.85);
+
+$colorTransShadow: 0 0 15px rgba(0,0,0,0.1);
+$colorTransShadowLight: 0 0 4px colorMonoLight;
+$colorTransShadowLink: 0 0 6px rgba(0,0,0,0.15);
+$colorTransShadowMv: 0 0 4px $colorMainDark;
+$colorTransShadowMvLadies: 0 0 4px $colorLadiesDark;
+
+
+//スペース
+$spaceXSmall: 5px;
+$spaceSmall: 10px;
+$spaceMedium: 18px;
+$spaceLarge: 30px;
+$spaceXLarge: 50px;
+
+//$spaceXSmallSp: 5px;
+//$spaceSmallSp: 10px;
+//$spaceMediumSp: 18px;
+//$spaceLargeSp: 30px;
+//$spaceXLargeSp: 50px;
+
+$spaceXSmallPc: 8px;
+$spaceSmallPc: 15px;
+$spaceMediumPc: 30px;
+$spaceLargePc: 45px;
+$spaceXLargePc: 80px;
+
+
+//フォントサイズ
+$fontULarge: 32px;
+$fontXLarge: 26px;
+$fontLarge: 22px;
+$fontMedium: 18px;
+$fontBase: 15px;
+$fontSmall: 13px;
+$fontNotice: 11px;
+
+$fontULargePc: 36px;
+$fontXLargePc: 28px;
+$fontLargePc: 24px;
+$fontMediumPc: 20px;
+$fontBasePc: 16px;
+$fontSmallPc: 14px;
+$fontNoticePc: 12px;
